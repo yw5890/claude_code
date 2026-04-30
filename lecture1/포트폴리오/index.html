@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>O:O — Yong-Woo Lee</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <nav class="nav">
+      <a href="#home" class="nav-logo">O:O</a>
+      <ul class="nav-links">
+        <li><a href="#skills">Design Skill</a></li>
+        <li><a href="#work">My Work</a></li>
+        <li><a href="#contact" class="nav-cta">Contact</a></li>
+      </ul>
+      <button class="nav-menu" aria-label="메뉴">
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <div class="hero-glow hero-glow-1"></div>
+      <div class="hero-glow hero-glow-2"></div>
+      <div class="hero-glow hero-glow-3"></div>
+    </div>
+    <div class="container">
+      <div class="hero-content">
+        <span class="hero-label">Portfolio — Yong-Woo Lee</span>
+        <h1 class="hero-title">O:O</h1>
+        <p class="hero-subtitle">
+          사용자를 위한 디자인.<br>
+          3D 모델링과 웹 디자인으로<br>
+          아이디어를 현실로 만듭니다.
+        </p>
+        <div class="hero-actions">
+          <a href="#work" class="btn btn-primary">My Work 보기</a>
+          <a href="#contact" class="btn btn-secondary">연락하기</a>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <div class="scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="skills" id="skills">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Expertise</span>
+        <h2 class="section-title">Design Skill</h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-card reveal">
+          <div class="skill-icon-wrap">
+            <span class="skill-icon">⬡</span>
+          </div>
+          <h3 class="skill-name">Blender</h3>
+          <p class="skill-desc">
+            3D 모델링, 렌더링, 제품 시각화를 위한 전문 도구로
+            현실감 있고 정교한 3D 오브젝트를 제작합니다.
+            마케팅 자료부터 컨셉 시각화까지 폭넓게 활용합니다.
+          </p>
+          <div class="skill-tags">
+            <span class="tag">3D Modeling</span>
+            <span class="tag">Rendering</span>
+            <span class="tag">Product Visualization</span>
+          </div>
+        </div>
+        <div class="skill-card reveal">
+          <div class="skill-icon-wrap">
+            <span class="skill-icon">◈</span>
+          </div>
+          <h3 class="skill-name">Framer</h3>
+          <p class="skill-desc">
+            노코드 웹 디자인 도구로 인터랙티브하고 직관적인 UI를
+            빠르게 구현합니다. 반응형 웹 인터페이스 설계와
+            사용자 경험 디자인에 특화되어 있습니다.
+          </p>
+          <div class="skill-tags">
+            <span class="tag">Web Design</span>
+            <span class="tag">Interactive UI</span>
+            <span class="tag">No-Code</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Work -->
+  <section class="work" id="work">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Portfolio</span>
+        <h2 class="section-title">My Work</h2>
+        <p class="section-hint">카드를 hover하면 자세한 내용을 확인할 수 있어요</p>
+      </div>
+      <div class="work-grid">
+
+        <div class="flip-card reveal">
+          <div class="flip-card-inner">
+            <div class="flip-card-front" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%)">
+              <span class="card-number">01</span>
+              <div class="card-content">
+                <h3>Product Modeling</h3>
+                <p>마케팅 및 시각화를 위한 정교한 3D 제품 모델링</p>
+              </div>
+            </div>
+            <div class="flip-card-back">
+              <span class="card-back-label">Product Modeling</span>
+              <p class="card-back-text">
+                클라이언트의 제품을 사실적인 3D 모델로 제작하여
+                효과적인 마케팅 자료를 만들어냅니다.
+              </p>
+              <div class="card-line"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card reveal">
+          <div class="flip-card-inner">
+            <div class="flip-card-front" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%)">
+              <span class="card-number">02</span>
+              <div class="card-content">
+                <h3>Concept Design</h3>
+                <p>아이디어를 현실적인 3D 형태로 변환</p>
+              </div>
+            </div>
+            <div class="flip-card-back">
+              <span class="card-back-label">Concept Design</span>
+              <p class="card-back-text">
+                초기 스케치와 아이디어를 구체적인 3D 개념 디자인으로
+                발전시킵니다.
+              </p>
+              <div class="card-line"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card reveal">
+          <div class="flip-card-inner">
+            <div class="flip-card-front" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)">
+              <span class="card-number">03</span>
+              <div class="card-content">
+                <h3>Interior & Environment</h3>
+                <p>공간 디자인과 조명 전문</p>
+              </div>
+            </div>
+            <div class="flip-card-back">
+              <span class="card-back-label">Interior & Environment</span>
+              <p class="card-back-text">
+                실내 공간과 환경을 3D로 시뮬레이션하여 최적의
+                디자인을 제안합니다.
+              </p>
+              <div class="card-line"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card reveal">
+          <div class="flip-card-inner">
+            <div class="flip-card-front" style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)">
+              <span class="card-number">04</span>
+              <div class="card-content">
+                <h3>Design Updates</h3>
+                <p>사용자 피드백 기반의 반복적 개선</p>
+              </div>
+            </div>
+            <div class="flip-card-back">
+              <span class="card-back-label">Design Updates</span>
+              <p class="card-back-text">
+                지속적인 피드백 수집과 분석을 통해 디자인을 개선하고
+                완성도를 높입니다.
+              </p>
+              <div class="card-line"></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Strengths -->
+  <section class="strengths" id="about">
+    <div class="container">
+      <div class="strengths-layout">
+        <div class="strengths-left reveal">
+          <span class="section-label">Why Choose Me</span>
+          <h2 class="section-title">사용자를 위한<br>디자인 철학</h2>
+          <p class="strengths-desc">
+            개인의 취향이 아닌 사용자의 관점에서 디자인합니다.
+            클라이언트의 비전을 현실로 만들기 위해 최선을 다합니다.
+          </p>
+        </div>
+        <div class="strengths-right">
+          <div class="strength-item reveal">
+            <div class="strength-icon">⚡</div>
+            <div class="strength-text">
+              <h3>빠른 실행력</h3>
+              <p>유연한 문제 해결과 신속한 결과물 제작으로 클라이언트의 일정을 맞춥니다.</p>
+            </div>
+          </div>
+          <div class="strength-item reveal">
+            <div class="strength-icon">👁</div>
+            <div class="strength-text">
+              <h3>사용자 중심 설계</h3>
+              <p>모든 디자인 결정은 최종 사용자의 경험을 최우선으로 고려합니다.</p>
+            </div>
+          </div>
+          <div class="strength-item reveal">
+            <div class="strength-icon">🔄</div>
+            <div class="strength-text">
+              <h3>지속적인 학습</h3>
+              <p>최신 트렌드와 기술을 학습하여 최고 품질의 결과물을 제공합니다.</p>
+            </div>
+          </div>
+          <div class="strength-item reveal">
+            <div class="strength-icon">✦</div>
+            <div class="strength-text">
+              <h3>픽셀 퍼펙트</h3>
+              <p>세밀한 디테일에 집중하여 완성도 높은 디자인을 구현합니다.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact-content reveal">
+        <span class="section-label">Get In Touch</span>
+        <h2 class="contact-title">함께 만들어볼까요?</h2>
+        <p class="contact-desc">새로운 프로젝트나 협업에 대해 이야기해보세요.</p>
+        <a href="mailto:hello@example.com" class="btn btn-primary">Contact Me</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <span class="footer-logo">O:O</span>
+        <p class="footer-copy">© 2025 Yong-Woo Lee. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
